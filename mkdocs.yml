@@ -1,0 +1,16 @@
+site_name: Boost.Log
+nav:
+  - Introduction: index.md
+  - Installation and compatibility: installation_and_compatibility.md
+  - Design overview: design_overview.md
+  - Tutorial: tutorial/tutorial.md
+  - Detailed features description: detailed_features_description/detailed_features_description.md
+theme: 
+  name: readthedocs
+plugins:
+  - include-markdown
+extra_css:
+  - css/extra.css
+markdown_extensions:
+  - toc:
+      permalink: true
